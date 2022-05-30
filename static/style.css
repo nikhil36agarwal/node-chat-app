@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url(./7866.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+div.mainbox{
+    width: 800px;
+    height: 88%;
+    
+    max-width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(32, 32, 32, 0.7);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+}
+
+.headbox{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(3, 3, 3, 0.619);
+    border: 2px solid rgba(120, 120, 120, 0.403);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.323);
+}
+
+.msgbox{
+    padding: 10px;
+    height: 450px;
+    padding-top: 30px;
+    margin-top: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.77);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x:hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+ 
+
+}
+.msgbox::-webkit-scrollbar {
+    display: none;
+}
+  
+.txtbox textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    outline: none;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.txtbox .sendmsg{
+    background-color: rgba(255, 251, 13, 0.852);
+    border: none;
+    border: 3px solid rgb(0, 0, 0);
+    color:rgb(42, 0, 45);
+    width: 100%;
+    height: 56px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.msg{
+    padding:5px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: max-content;
+    max-width: 300px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.414);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+
+}
+.receive{
+    background-color: crimson;
+ 
+}
+.send{
+    margin-left: auto;
+    background-color: rgb(5, 119, 102);
+}
+.msg h4{
+    top: -25px;
+    left: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+.msg p{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.homepage{
+    
+    padding: 20px;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+ 
+    margin-top: 100px;
+}
+.homepage form{
+    padding: 5px;
+}
+.homepage input{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.homepage button{
+    width: max-content;
+    margin-bottom: 5px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background-color: rgb(37, 64, 72);
+    color: white;
+}
+/* .signUpPage{
+    display: none;
+}  */
+.signUpPage, .sigInPage{
+    color: white;
+    z-index: 2;
+    padding: 10px;
+    background-color: rgba(32, 32, 32, 0.7);
+    width: max-content;
+    border-radius: 10px;
+   
+}
+
+.heading{
+    color: black;
+    font-weight: 600;
+    top: 0;
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.7);
+    border-radius: 0;
+    padding: 30px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glassbg{
+
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    background-color: rgba(243, 243, 243, 0.7);
+}
